@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">alarm-demo</string>
+    <string name="txt_time_picker">Pilih Waktu</string>
+</resources>
