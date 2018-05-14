@@ -43,6 +43,7 @@ class AlarmActivity : AppCompatActivity() {
         intent.putExtra("EXTRA_MINUTE", minute)
         intent.putExtra("EXTRA_WITH_SOUND", withSound)
         intent.putExtra("EXTRA_WITH_VIBRATE", withVibrate)
+        intent.putExtra("EXTRA_WHAT_THIS", "ANU")
 
         val alarmIntent = PendingIntent.getBroadcast(this, 0, intent, 0)
 

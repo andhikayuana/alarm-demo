@@ -13,6 +13,7 @@ class AlarmReceiver : BroadcastReceiver() {
         Log.d(TAG, "minute : " + intent.extras["EXTRA_MINUTE"])
         Log.d(TAG, "withSound : " + intent.extras["EXTRA_WITH_SOUND"].toString())
         Log.d(TAG, "withVibrate : " + intent.extras["EXTRA_WITH_VIBRATE"].toString())
+        Log.d(TAG, "whatThis : " + intent.extras["EXTRA_WHAT_THIS"].toString())
 
         AlarmUtil.showNotification(
                 context!!,
